@@ -42,9 +42,15 @@ The goal of this project is to **visualize academic performance** of students us
 
 ---
 
-## 📂 Data Format (students.json)
+# 📊 Student CGPA Data Visualization
 
-```json
+An interactive Streamlit dashboard to visualize student CGPA data across different semesters using colorful bar charts and a JSON data source.
+
+---
+
+## 📂 Data Format (`students.json`)
+
+
 [
   {
     "id": "S001",
@@ -56,38 +62,43 @@ The goal of this project is to **visualize academic performance** of students us
       "4": 3.8
     }
   },
-  ...
+  {
+    "id": "S002",
+    "name": "Bob",
+    "semesters": {
+      "1": 3.2,
+      "2": 3.4,
+      "3": 3.6,
+      "4": 3.5
+    }
+  }
 ]
 
-##🚀 How to Run the App
-Clone the repository:
+## 🚀 Installation
 
-bash
-Copy
-Edit
+Follow these steps to set up and run the project locally:
+
+### 1. Clone the Repository
+
+
 git clone https://github.com/yourusername/student-cgpa-visualization.git
 cd student-cgpa-visualization
-Install dependencies:
 
-bash
-Copy
-Edit
+## 🚀 Installation & Setup
+
+Follow these steps to get the project running on your local machine:
+
+### 1. Install Dependencies
+
+Make sure Python is installed on your system. Then, install the required Python libraries:
+
+
 pip install streamlit matplotlib
-Run the app:
 
-bash
-Copy
-Edit
+### ▶️ Run the Application
+
+To launch the Streamlit app, use the following command in your terminal:
+
+
 streamlit run app.py
-📌 Example Output
-Colorful bar chart showing CGPA per student for a selected semester.
-
-Scrollable chart if number of students is large.
-
-Table with student names, IDs, and CGPAs (optional via sidebar).
-
-📚 Credits
-Created by [Your Name]
-Powered by Python 🐍, Streamlit, and Matplotlib 🎨
-
 
