@@ -59,3 +59,35 @@ The goal of this project is to **visualize academic performance** of students us
   ...
 ]
 
+##🚀 How to Run the App
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/student-cgpa-visualization.git
+cd student-cgpa-visualization
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install streamlit matplotlib
+Run the app:
+
+bash
+Copy
+Edit
+streamlit run app.py
+📌 Example Output
+Colorful bar chart showing CGPA per student for a selected semester.
+
+Scrollable chart if number of students is large.
+
+Table with student names, IDs, and CGPAs (optional via sidebar).
+
+📚 Credits
+Created by [Your Name]
+Powered by Python 🐍, Streamlit, and Matplotlib 🎨
+
+
