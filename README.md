@@ -81,7 +81,7 @@ Follow these steps to set up and run the project locally:
 ### 1. Clone the Repository
 
 
-git clone https://github.com/yourusername/student-cgpa-visualization.git
+git clone https://github.com/rafi0112/data-visualization.git
 cd student-cgpa-visualization
 
 ## 🚀 Installation & Setup
